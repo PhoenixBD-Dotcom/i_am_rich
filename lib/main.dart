@@ -10,9 +10,10 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-            child: Image(
-                image: NetworkImage(
-                    'https://st.depositphotos.com/1015682/2086/i/450/depositphotos_20867981-stock-photo-earth-at-night-with-city.jpg'))),
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
+        ),
         backgroundColor: Colors.blueGrey[500],
       ),
     ),
